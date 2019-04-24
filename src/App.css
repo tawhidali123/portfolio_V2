@@ -1,0 +1,157 @@
+/* Landing Page */
+/* https://uigradients.com/#LoveandLiberty */
+.header-color {
+    background: #1a2a6c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.landing-grid {
+    background: #1a2a6c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    text-align: center;
+    position: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.img-container {
+    height: 25%;
+    padding-top: 2em;
+    
+}
+
+.avatar-img {
+    height: 100%;
+}
+
+.banner-text {
+    background-color:rgba(0, 0, 0, .6);
+    margin: auto;
+    border-radius: 10px;
+    width: 75%;
+    position: block;
+}
+
+.banner-text h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.banner-text hr {
+    border-top: 3px dotted white;
+    margin: auto;
+    width: 50%;
+}
+
+.experience {
+    display: block;
+    justify-content: space-between;
+    width: 75%;
+    margin: auto;
+    padding: 15px;
+    
+}
+
+.experience i {
+    font-size: 2.5em;
+    color: white;
+    padding: 25px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: auto;
+    color: white;
+    border: solid white;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.social-links i {
+    font-size: 40px;
+    color: white;
+    padding: 5px;
+}
+
+.social-links h6 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+}
+
+/* *********************** */
+/* projects section */
+/* *********************** */
+.projects-grid {
+    display: flex;
+}
+
+@media screen and (max-width: 700px) {
+    .projects-grid {
+        display: block;
+    }
+}
+ 
+.content {
+    padding: 20px;
+}
+
+
+
+
+/* contact section */
+.contact {
+    height: 100%;
+    margin: auto;  
+}
+
+.name {
+    padding: 40px;
+    text-align: center;
+}
+
+.name img {
+    padding: 10px;
+}
+
+.info {
+    padding: 40px;
+    text-align: center;
+}
+
+    
+.contact-grid h2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 4em;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px gray, 0 0 5px darkgray;
+}
+
+.contact-grid p {
+    font-family: 'Concert One', cursive;
+    font-size: 25px;
+    color: darkgray;
+    text-shadow: 1px 1px 2px black;
+}
+
+.contact-grid hr {
+    border-top: 10px dotted black;
+}
+
+/* RESUME */
+/* *************** */
+.resumeRightSide {
+    background-color: rgba(0, 0, 0, .6);
+    color: white;
+    padding: 15px;
+}
