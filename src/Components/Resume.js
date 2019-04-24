@@ -7,10 +7,10 @@ import Skills from './Skills'
 class Resume extends React.Component {
   render() {
     return (
-      <div>
+      <div className="resume">
         <Grid>
             <Cell col={4}>
-              <div style={{textAlign: 'center'}}>
+              <div style={{textAlign: 'center', position: 'absolute'}}>
                 <img
                   src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
                   alt="avatar"
