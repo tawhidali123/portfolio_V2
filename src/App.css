@@ -1,4 +1,15 @@
 /* Landing Page */
+
+/* overide nav layout */
+.navi .container {
+    position: relative;
+}
+
+
+
+
+
+
 /* https://uigradients.com/#LoveandLiberty */
 .header-color {
     background: #1a2a6c;  /* fallback for old browsers */
@@ -101,6 +112,15 @@
     .projects-grid {
         display: block;
     }
+}
+
+@media(min-width: 700px){
+
+    .navi .container{
+        overflow: hidden;
+        max-height: 100vh;
+    }
+
 }
  
 .content {

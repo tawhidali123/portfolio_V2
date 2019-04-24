@@ -9,7 +9,7 @@ class App extends Component {
   render() {
     return (
         <div className="navi">
-            <Layout className="container">
+            <Layout className="container app-body">
                 <Header title="Tawhid Ali" scroll className="header-color">
                     <Navigation>
                         <Link to="">Home</Link>
