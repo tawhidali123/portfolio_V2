@@ -76,6 +76,7 @@
     border: solid white;
     padding: 10px;
     border-radius: 25px;
+    align-items: center;
 }
 
 .social-links i {
